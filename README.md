@@ -1,14 +1,14 @@
 # docker-sonarqube
 
-This working on first attempt at doing this through auto-deploy and build.. Standby...
 
 It can run as a standalone temporary server using h2 (default) or it can be run as a local server with data stored elsewhere. (ie: aws).
 
 Start (default) (set memory to where you need it)
 
 ```
-docker run -d -m 512m --name sonarqube -p 9000:9000 mikecaspar/docker_sonarqube
+docker run -d --name sonarqube -p 9000:9000 mikecaspar/docker_sonarqube
 ```
+
 
 Start (external db)
 
@@ -20,3 +20,12 @@ docker run -d -m 1G --name sonarqube
 -p 9000:9000 
 mikecaspar/docker_sonarqube
 ```
+
+**SonarQube**
+
+[http://www.sonarqube.org/](http://www.sonarqube.org/)
+ 
+
+**Version History**
+
+Initial Release - 1.0 on Jan 12, 2016
