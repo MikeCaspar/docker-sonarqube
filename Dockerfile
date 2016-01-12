@@ -74,10 +74,10 @@ ENTRYPOINT ["./bin/run.sh"]
 EXPOSE 9000
 
 # Require Port
-#EXPOSE 9001
+EXPOSE 9001
 
 # H2 Database port
-#EXPOSE 9092
+EXPOSE 9092
 
 # Database configuration
 
