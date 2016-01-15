@@ -1,8 +1,6 @@
 # docker-sonarqube
 
-This working on first attempt at doing this through auto-deploy and build.. Standby...
-
-It can run as a standalone temporary server using h2 (default) or it can be run as a local server with data stored elsewhere. (ie: aws).
+This image can run as a standalone temporary server using h2 (default) or it can be run as a local server with data stored elsewhere. (ie: aws).
 
 Start (default) (set memory to where you need it)
 
