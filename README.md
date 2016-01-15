@@ -2,6 +2,13 @@
 
 This image can run as a standalone temporary server using h2 (default) or it can be run as a local server with data stored elsewhere. (ie: aws).
 
+Quickstart on a Development workstation
+
+```
+docker run -d --name sonarqube -p 9000:9000 mikecaspar/docker_sonarqube
+```
+
+
 Start (default) (set memory to where you need it)
 
 ```
