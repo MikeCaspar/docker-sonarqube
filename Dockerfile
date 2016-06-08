@@ -20,7 +20,7 @@
 
 FROM alpine
 
-RUN apk --update add openjdk7-jre
+RUN apk --update add openjdk8-jre
 RUN apk add wget curl gnupg
 
 MAINTAINER Mike Caspar <mike@caspar.com>
