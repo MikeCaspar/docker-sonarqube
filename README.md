@@ -29,4 +29,3 @@ mikecaspar/docker_sonarqube
 
 1.0.1 - Jan 12, 2016 - Initial Release
 1.0.2 - June 8, 2016 - openjdk8 
-
